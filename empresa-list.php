@@ -61,6 +61,7 @@
                                                     <a href="contrato-list.php?empresa_id=<?= $empresa['empresa_id']; ?>" class="btn btn-primary btn-sm">Contratos</a>
                                                     <form action="code.php" method="POST" class="d-inline">
                                                         <button type="submit" name="delete_empresa" value="<?=$empresa['empresa_id'];?>" class="btn btn-danger btn-sm">Deletar</button>
+                                                        <img src="\icones\" alt="">
                                                     </form>
                                                 </td>
                                             </tr>
