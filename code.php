@@ -4,6 +4,8 @@ require 'dbcon.php';
 
 if(isset($_POST['delete_empresa']))
 {
+
+    
     $empresa_id = mysqli_real_escape_string($con, $_POST['delete_empresa']);
 
     $query = "DELETE FROM empresas WHERE empresa_id='$empresa_id' ";
