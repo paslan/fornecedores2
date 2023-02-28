@@ -24,9 +24,9 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Lista de Contratos
-                            <a href="empresa-list.php" class="btn btn-danger float-end">VOLTAR</a><br>
-                            <a href="contrato-create.php" class="btn btn-primary float-begin">Adicionar Contrato</a>
+                        <h4>Lista de Contratos - Empresa <?php echo $_GET['empresa_id'] ?>
+                            <a href="empresa-list.php" class="btn btn-outline-success float-end"><img src="./Icones/back.png" width="32" height="32" title="Voltar" alt="Voltar"></a><br>
+                            <a href="contrato-create.php?empresa_id=<?= $_GET['empresa_id']; ?>" class="btn btn-outline-success float-begin"><img src="./Icones/add_page.png" width="32" height="32" title="Adicionar Contrato" alt="Adicionar Contrato"></a>
                         </h4>
                     </div>
                     <div class="card-body">

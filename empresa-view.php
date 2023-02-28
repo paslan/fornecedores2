@@ -22,7 +22,7 @@ require 'dbcon.php';
                 <div class="card">
                     <div class="card-header">
                         <h4>Dados da empresa 
-                            <a href="empresa-list.php" class="btn btn-danger float-end">VOLTAR</a>
+                            <a href="empresa-list.php" class="btn float-end"><img src="./Icones/back.png" width="32" height="32" title="Voltar" alt="Voltar"></a>
                         </h4>
                     </div>
                     <div class="card-body">

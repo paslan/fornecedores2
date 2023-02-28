@@ -25,7 +25,7 @@ session_start();
                 <div class="card">
                     <div class="card-header">
                         <h4>Adicionar empresa
-                            <a href="empresa-list.php" class="btn btn-danger float-end">VOLTAR</a>
+                            <a href="empresa-list.php" class="btn btn-outline-primary float-end"><img src="./Icones/back.png" width="32" height="32" title="Voltar" alt="Voltar"></a><br>
                         </h4>
                     </div>
                     <div class="card-body">
@@ -91,7 +91,7 @@ session_start();
                                     </div>
                                 </div>
 
-                                <button type="submit" name="save_empresa" class="btn btn-primary">Salvar Empresa</button>
+                                <button type="submit" name="save_empresa" class="btn btn-outline-primary">Gravar</button>
 
                             </form>
                         </div>

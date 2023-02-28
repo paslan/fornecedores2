@@ -26,7 +26,7 @@ require 'dbcon.php';
                 <div class="card">
                     <div class="card-header">
                         <h4>Editando Empresa - <?php echo $_GET['empresa_id'] ?>
-                            <a href="empresa-list.php" class="btn btn-danger float-end">VOLTAR</a>
+                            <a href="empresa-list.php" class="btn float-end"><img src="./Icones/back.png" width="32" height="32" title="Voltar" alt="Voltar"></a>
                         </h4>
                     </div>
                     <div class="card-body">
@@ -105,8 +105,8 @@ require 'dbcon.php';
 
 
                                         <div class="mb-3">
-                                            <button type="submit" name="update_empresa" class="btn btn-primary">
-                                                Atualizar Empresa
+                                            <button type="submit" name="update_empresa" class="btn btn-outline-primary">
+                                                Gravar
                                             </button>
                                         </div>
 
@@ -120,7 +120,7 @@ require 'dbcon.php';
                             }
                             ?>
                         </div>
-                    </div> card
+                    </div>
                 </div>
             </div>
         </div>
